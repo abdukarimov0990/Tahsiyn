@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url(../font/Mulish-Black.woff2);
+    font-weight: 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kuunari';
+    src: url(../font/kuunari-black.woff2);
+    font-weight: 900;
+    font-display: swap;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9-10-Fevral | 20:00</title>
+    <style>
+    </style>
+    <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="./css/main.css" />
+    </noscript>
+</head>
+<body>
+  <div class="box">
+      <header class="header">
+          <div class="container header__container">
+            <img src="./images/bg.avif" width="390" height="72" decoding="async" loading="lazy" alt="bg" class="bg">
+            <div class="header__box">
+                <h3 class="header__title">9-10-феврал | 20:00</h3>
+                <p class="header__text">2 кунлик дарс – БEПУЛ</p>
+            </div>
+        </div>
+    </header>
+     <section class="hero">
+        <div class="container hero__container">
+            <h1 class="hero__title">
+                Рамазонни Қуръон <br>
+                билан ўтказинг            </h1>
+                <p class="hero__text">Қуръон билан ўтган Рамазон <br> энг гўзал Рамазондир!</p>
+            <ul class="hero__list">
+                <li class="hero__list__item">
+                    <div class="hero__list__item__box">
+                        <img src="./images/1.avif" alt="1" width="46" height="34" decoding="async" loading="lazy">
+                    </div>
+                    <p>                    Рамазонда <span>Қуръондан узоқлаштириб <br> юборадиган</span> 5 одатларни билиб оласиз                </li>
+                    </p>
+                <li class="hero__list__item">
+                    <div class="hero__list__item__box">
+                        <img src="./images/2.avif" alt="1" width="46" height="34" decoding="async" loading="lazy">
+                    </div>
+                    <p>                    <span>Aраб тилида муҳим</span> бўлган қоидаларни <br> кўриб чиқамиз                          </li>
+                    </p>
+                <li class="hero__list__item">
+                    <div class="hero__list__item__box">
+                        <img src="./images/3.avif" alt="1" width="46" height="34" decoding="async" loading="lazy">
+                    </div>
+                    <p>                    <span>Ҳарф маҳражлари,</span> овозни тўғрилаш ва <br> дангасалик ҳақида гаплашамиз                            </li>
+                    </p>
+            </ul>
+            <div class="button-wrapper">
+                <a href="https://t.me/+hDSUYVJWdJk4YWVk" class="hero__button registerBtn">
+                    БEПУЛ ҚАТНАШИШ >>
+                </a>
+            </div>
+        </div>
+    </section>
+  </div>
+    <div class="container img__container">
+        <img src="./images/expert.avif" alt="expert" width="251" height="243" loading="lazy" decoding="async" class="hero__expert">
+    </div>
+    <script defer>
+        document.addEventListener("DOMContentLoaded", () => {
+            const buttons = document.querySelectorAll(".registerBtn");
+
+            buttons.forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    if (typeof fbq === "function") {
+                        fbq("track", "CompleteRegistration");
+                    }
+                });
+            });
+        });
+    </script>
+<!-- Meta Pixel Code -->
+<script defer>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '895081309550497');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=895081309550497&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+    <!-- End Meta Pixel Code -->
+</body>
+</html>
